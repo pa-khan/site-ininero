@@ -1,0 +1,65 @@
+.icon-arrow-left {
+  background-image: url(../../img/sprite.png);
+  background-position: -81px -76px;
+  width: 12px;
+  height: 18px; }
+
+.icon-arrow-right {
+  background-image: url(../../img/sprite.png);
+  background-position: -69px -76px;
+  width: 12px;
+  height: 18px; }
+
+.icon-check {
+  background-image: url(../../img/sprite.png);
+  background-position: -23px -76px;
+  width: 24px;
+  height: 22px; }
+
+.icon-checkbox {
+  background-image: url(../../img/sprite.png);
+  background-position: -91px 0px;
+  width: 30px;
+  height: 30px; }
+
+.icon-earth {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px -76px;
+  width: 23px;
+  height: 23px; }
+
+.icon-inst {
+  background-image: url(../../img/sprite.png);
+  background-position: -91px -30px;
+  width: 29px;
+  height: 29px; }
+
+.icon-minusbox {
+  background-image: url(../../img/sprite.png);
+  background-position: -58px -33px;
+  width: 33px;
+  height: 33px; }
+
+.icon-nope {
+  background-image: url(../../img/sprite.png);
+  background-position: -47px -76px;
+  width: 22px;
+  height: 22px; }
+
+.icon-pdf {
+  background-image: url(../../img/sprite.png);
+  background-position: 0px 0px;
+  width: 58px;
+  height: 76px; }
+
+.icon-question {
+  background-image: url(../../img/sprite.png);
+  background-position: -58px 0px;
+  width: 33px;
+  height: 33px; }
+
+.icon-star {
+  background-image: url(../../img/sprite.png);
+  background-position: -91px -59px;
+  width: 18px;
+  height: 17px; }
