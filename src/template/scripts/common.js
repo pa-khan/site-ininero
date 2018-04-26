@@ -46,4 +46,12 @@ $(document).ready(function($) {
 		$('body,html').animate({scrollTop: top - 30}, 1500);
 	});
 
+	$(window).on('load resize scroll', function(event) {
+		if($(window).scrollTop() > 1){
+			$('.header__nav').addClass('header__nav_scroll');
+		} else{
+			$('.header__nav').removeClass('header__nav_scroll');
+		}
+	});
+
 });

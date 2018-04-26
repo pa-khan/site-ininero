@@ -130,6 +130,7 @@
 			display: block
 			text-align: center
 			width: 100%
+			display: none
 
 	.advantages
 		&__item
@@ -168,7 +169,9 @@
 				margin-top: -20px
 			
 
-			
+	.program
+		&__text
+			margin-bottom: 15px
 			
 	.program__item:nth-of-type(odd) .program__content
 		padding-left: 0 !important
@@ -268,10 +271,19 @@
 			
 		&__nav
 			text-align: center
+			position: relative
+			background: none
+			margin-bottom: 15px
+			&_scroll
+				
 			&-wrap
 				li
 					margin-left: 10px !important
 					margin-right: 10px !important
+
+		&__phone
+			display: block
+			
 			
 		&__nav, &__content
 			max-width: 280px
@@ -283,6 +295,10 @@
 			
 		&__list
 			margin-bottom: 30px
+
+		&__content
+			padding-top: 0
+			
 			
 	.advantages
 		&__item
@@ -308,10 +324,12 @@
 			padding: 10px 15px 0
 
 	.map
-		background: none
-		min-height: 1px
+		// background: none
+		min-height: 420px
 		margin-top: 30px
+		background-size: 200%
 		&__title
+			display: none
 			span
 				display: block
 				font-size: 30px
@@ -323,6 +341,7 @@
 		&__zoom
 			padding-top: 0
 		&__img
+			display: none
 			width: 100%
 			max-width: 360px
 			margin-left: auto
@@ -353,6 +372,8 @@
 				display: none
 		&__name
 			font-size: 30px
+			
+
 			
 			
 	.price
@@ -555,7 +576,12 @@
 	.form
 		&__btn
 			margin-top: 0
-			
+@media screen and (max-width: 530px)
+	.map
+		min-height: 360px
+		background-size: 280%
+	.program
+		margin-top: 40px
 @media screen and (max-width: 490px)
 	.reviews
 		&__img
@@ -587,3 +613,7 @@
 		&__title
 			span
 				font-size: 22px
+
+	.map
+		min-height: 320px
+		background-size: 280%

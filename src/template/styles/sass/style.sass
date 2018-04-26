@@ -194,7 +194,7 @@ img
 	position: relative
 	color: #fff
 	background: url('../../img/bg/header.png') no-repeat center top
-	padding-top: 11px
+	
 	min-height: 715px
 	&:before
 		content: ''
@@ -211,6 +211,13 @@ img
 		
 	&__nav
 		margin-bottom: 80px
+		position: fixed
+		top: 0
+		left: 0
+		right: 0
+		z-index: 10
+		padding-top: 11px
+		padding-bottom: 11px
 		&-wrap
 			font-weight: 900
 			padding-top: 24px
@@ -226,6 +233,9 @@ img
 				color: #fff
 				&:hover
 					color: #f39e09
+		&_scroll
+			background: #1f1f1f
+			.header
 
 
 	&__phone
@@ -281,6 +291,10 @@ img
 		margin-bottom: 18px
 		span
 			color: #fcc426
+
+	&__content
+		padding-top: 130px
+		
 
 		
 		
@@ -423,6 +437,10 @@ img
 			.program
 				&__slider, &__content
 					padding-left: 68px
+			.program
+				&__content
+					float: right
+					
 		&:nth-of-type(even)
 			&:before
 				content: ''
